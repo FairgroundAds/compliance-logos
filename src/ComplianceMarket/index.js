@@ -1,17 +1,17 @@
-import Australia from "../ComplianceMarket/Markets/Australia";
-import Austria from "../ComplianceMarket/Markets/Austria";
-import Canada from "../ComplianceMarket/Markets/Canada";
-import CanadaFrench from "../ComplianceMarket/Markets/CanadaFrench";
-import Germany from "../ComplianceMarket/Markets/Germany";
-import Ireland from "../ComplianceMarket/Markets/Ireland";
-import Italy from "../ComplianceMarket/Markets/Italy";
-import Netherlands from "../ComplianceMarket/Markets/Netherlands";
-import NewZealand from "../ComplianceMarket/Markets/New Zealand";
-import Norway from "../ComplianceMarket/Markets/Norway";
-import SouthAfrica from "../ComplianceMarket/Markets/SouthAfrica";
-import Sweden from "../ComplianceMarket/Markets/Sweden";
-import USA from "../ComplianceMarket/Markets/USA";
-import UnitedKingdom from "../ComplianceMarket/Markets/UnitedKingdom";
+import Australia from "./Markets/Australia";
+import Austria from "./Markets/Austria";
+import Canada from "./Markets/Canada";
+import CanadaFrench from "./Markets/CanadaFrench";
+import Germany from "./Markets/Germany";
+import Ireland from "./Markets/Ireland";
+import Italy from "./Markets/Italy";
+import Netherlands from "./Markets/Netherlands";
+import NewZealand from "./Markets/New Zealand";
+import Norway from "./Markets/Norway";
+import SouthAfrica from "./Markets/SouthAfrica";
+import Sweden from "./Markets/Sweden";
+import USA from "./Markets/USA";
+import UnitedKingdom from "./Markets/UnitedKingdom";
 
 export default function ComplianceMarket({ name }) {
   let Market;
