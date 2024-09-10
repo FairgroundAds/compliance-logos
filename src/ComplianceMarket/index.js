@@ -14,7 +14,7 @@ import USA from "../ComplianceMarket/Markets/USA";
 import UnitedKingdom from "../ComplianceMarket/Markets/UnitedKingdom";
 
 export default function ComplianceMarket({ name }) {
-  let Market = <></>;
+  let Market;
 
   switch (name) {
     case "United Kingdom":
