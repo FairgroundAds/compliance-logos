@@ -1,5 +1,5 @@
-export default function ComplianceImageOrLink({ href, src }) {
-  const imageHeight = 'max-h-4 vs:max-h-8 sm:max-h-16'
+export default function ImageOrLink({ href, src }) {
+  const imageHeight = "max-h-4 vs:max-h-8 sm:max-h-16";
   return (
     <div className="mb-4 ml-4">
       {href ? (
@@ -10,5 +10,5 @@ export default function ComplianceImageOrLink({ href, src }) {
         <img src={src} className={imageHeight} alt="" />
       )}
     </div>
-  )
+  );
 }

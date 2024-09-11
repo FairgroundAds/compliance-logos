@@ -1,2 +1,2 @@
-import ComplianceMarket from "./src/ComplianceMarket";
-export default ComplianceMarket;
+import ComplianceLogos from "./src/ComplianceLogos";
+export default ComplianceLogos;
